@@ -1,0 +1,37 @@
+
+/* target mobile by default */
+
+
+/* tablet specific settings */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    #section1 {
+        width: 50%;
+        float: right;
+    }
+    #section2 {
+        width: 50%;
+        float: right;
+    } 
+}
+
+
+/* desktop specific settings */
+
+@media (min-width: 992px) {
+
+    #section1 {
+        width: 33.3%;
+        float: right;
+    }
+    #section2 {
+        width: 33.3%;
+        float: right;
+    }
+    #section3 {
+        width: 33.3%;
+        float: right;
+    }
+}
+
