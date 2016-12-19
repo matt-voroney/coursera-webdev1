@@ -1,9 +1,14 @@
 
 /* target mobile by default */
 
-section {
+* {
     box-sizing: border-box;
-    padding: 10px
+}
+
+section {
+    padding: 10px;
+    margin: 2% 1% 2% 1%;
+    width: 98%;
 }
 
 #section1 {
@@ -23,15 +28,18 @@ section {
 @media (min-width: 768px) and (max-width: 991px) {
     
     #section1 {
-        width: 50%;
+        margin: 2% 1% 2% 1%;
+        width: 48%;
         float: left;
     }
     #section2 {
-        width: 50%;
+        margin: 2% 1% 2% 1%;
+        width: 48%;
         float: left;
     }
     #section3 {
-        width: 100%;
+        margin: 2% 1% 2% 1%;
+        width: 98%;
         clear: both;
     }
 }
@@ -40,17 +48,20 @@ section {
 /* desktop specific settings */
 
 @media (min-width: 992px) {
+    section {
+        margin: 2% 0.66% 2% 0.66%;
+    }
 
     #section1 {
-        width: 33.3%;
+        width: 32%;
         float: left;
     }
     #section2 {
-        width: 33.3%;
+        width: 32%;
         float: left;
     }
     #section3 {
-        width: 33.3%;
+        width: 32%;
         float: left;
     }
 }
