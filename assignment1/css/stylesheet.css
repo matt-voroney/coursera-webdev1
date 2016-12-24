@@ -1,6 +1,10 @@
 
 /* target mobile by default */
 
+h1 {
+    text-align: center;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -9,18 +13,36 @@ section {
     padding: 10px;
     margin: 2% 1% 2% 1%;
     width: 98%;
+    position: relative;
+    border: 1px solid black;
+    background-color: darkseagreen
 }
 
-#section1 {
-    background-color: red;
+section div {
+    height: 18px;
 }
 
-#section2 {
-    background-color: orange;
+div span.section-title {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-style: solid;
+    border-color: black;
+    border-top: 1px;
+    border-right: 1px;
+    padding: 2px 60px 2px 60px;
 }
 
-#section3 {
-    background-color: yellow;
+#section1 div span.section-title {
+    background-color: azure;
+}
+
+#section2 div span.section-title {
+    background-color: beige;
+}
+
+#section3 div span.section-title {
+    background-color: bisque;
 }
 
 /* tablet specific settings */
