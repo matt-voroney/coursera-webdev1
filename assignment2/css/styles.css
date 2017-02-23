@@ -3,5 +3,9 @@
     background-color: azure;
 }
 .menu-category-tile {
+    padding: 5px;
+}
+.menu-category-tile div {
+    padding: inherit;
     background-color: antiquewhite;
 }
